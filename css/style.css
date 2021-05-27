@@ -1,8 +1,12 @@
 /*------------------------------------------------------------------
     IMPORT FONTS
 -------------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,300&family=Dancing+Script&family=Tinos:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tinos:ital@1&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -20,7 +24,11 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Chivo', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Tinos', serif;
     line-height: 1.80857;
 }
 
@@ -213,6 +221,11 @@ margin-bottom: 0;
 }
 .navbar-brand, .navbar-nav li a {
 line-height: 28px;
+font-family: 'Chivo', sans-serif;
+
+font-family: 'Dancing Script', cursive;
+
+font-family: 'Tinos', serif;
 }
 .navbar-default .navbar-brand  {
 color: #5C5C5C;
@@ -238,6 +251,7 @@ letter-spacing: 1px;
 .cover-slides{
 	height: 100vh;
 }
+
 .slides-navigation a {
 	background: #9e7900;
     position: absolute;
@@ -256,7 +270,7 @@ letter-spacing: 1px;
 	font-size: 40px;
 }
 img {
-    border-radius: 6px;
+    border-radius: 12px;
 }
 .slides-navigation a:hover {
 	background: #010101;
@@ -278,6 +292,32 @@ img {
 .btn{
 	text-transform: uppercase;
 	padding: 19px 36px;
+}
+.return{
+    
+        display: inline-block;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 2px solid transparent;
+        padding: 12px 30px;
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: .1875rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+            color: #fff;
+            background-color: #9e7900;
+            background-image: none;
+            border-color: #9e7900;
+
+    
+
 }
 .btn{
 	display: inline-block;
@@ -319,14 +359,17 @@ img {
 }
 
 .cover-slides h1{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family:'Dancing Script', cursive;;
 	font-weight: 500;
-	font-size: 64px;
+	font-size: 200px;
 	color: #fff;
 }
 .cover-slides p{
-	font-size: 18px;
+	font-size: 40px;
 	color: #fff;
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Tinos', serif;
 }
 .slides-pagination a{
 	border: 2px solid #ffffff;
@@ -389,17 +432,17 @@ img {
 	position: relative;
 }
 .qt-background p {
-    font-size: 35px;
+    font-size: 40px;
     font-weight:bolder;
     line-height: 44px;
-    color: rgb(14, 13, 13);
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 13, 13);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	margin-bottom: 20px;
-    text-shadow: #333333;
+    text-shadow: #7c7a7a;
 }
 
 .qt-background span {
-    color: #fff;
+    color: #9e7900;
     font-size: 28px;  
 	font-weight: 600;	
 }
@@ -600,9 +643,7 @@ img {
     border-radius: 1px;
 }
 
-.overflow-hidden {
-    overflow: hidden;
-}
+
 
 .contact-imfo-box i{
 	display: block;
@@ -633,6 +674,16 @@ img {
     margin: 0px;
 	color: #ffffff;
 	font-weight: 300;
+}
+.arrow-right::before {
+    content: "\f101";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: #fff;
+    font-size: ;
+    line-height: 60px;
 }
 
 /*------------------------------------------------------------------
@@ -1053,6 +1104,7 @@ img {
     position: relative;
 }
 
+
 .date-blog-up {
     position: absolute;
     right: 0px;
@@ -1186,6 +1238,7 @@ blockquote {
     font-size: 16px;
     font-weight: 500;
 }
+
 .right-btn-re {
     float: right;
     font-style: italic;
@@ -1380,7 +1433,7 @@ blockquote {
     color: #ffffff;
     cursor: pointer;
     border: 0;
-    border-radius: 2px;
+    border-radius: 400px;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
