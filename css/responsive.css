@@ -42,10 +42,12 @@
 	}
 	.cover-slides h1 {
 		font-size: 50px;
+		text-shadow: 4px 4px 4px #aaa;text-shadow: 4px 4px 4px #aaa;
 	}
 	
 	.cover-slides p {
 		font-size: 28px;
+		text-shadow: 4px 4px 4px #aaa;
 	}
 	.slides-navigation a{
 		height: 42px;

@@ -270,7 +270,7 @@ letter-spacing: 1px;
 	font-size: 40px;
 }
 img {
-    border-radius: 12px;
+    border-radius: 10px;
 }
 .slides-navigation a:hover {
 	background: #010101;
@@ -439,6 +439,7 @@ img {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	margin-bottom: 20px;
     text-shadow: #7c7a7a;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .qt-background span {
@@ -461,7 +462,7 @@ img {
 .heading-title h2{
 	color: #010101;
 	font-size: 28px;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Tinos', serif;
 	font-weight: 500;
 }
 .heading-title p{
